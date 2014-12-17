@@ -65,7 +65,8 @@ We've done the following processing on the data:
      deviation.
 2. Added the subject and the activity (converted to a factor variable)
    to the measurement data.
-3. Summarised the data by computing the mean of each measurement grouped by
+3. Merged the test and train data sets   
+4. Summarised the data by computing the mean of each measurement grouped by
    subject and activity.
 
 The resulting tidy set hence only contains the summary data grouped per subject
