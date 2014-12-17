@@ -10,7 +10,8 @@ script works and zooms in on some of the processing details.
 Description of the analysis script
 ----------------------------------
 The processing of the Samsung data resulting in the tidy data set is done using
-the run_analysis.R script.
+the run_analysis.R script. This script consists of a number of functions which 
+are explained in more detail below. 
 
 ###downloadData
 
@@ -50,7 +51,6 @@ We have therefore done the following clean up of the column headers:
 3. Remove multiple Body as in BodyBody
 4. Replace initial t with time and f with freq
 5. Make long readable names:
-
    * "Acc" --> "Acceleration"
    * "Gyro" --> "Gyroscope"
    * "Mag" --> "Magnitude"

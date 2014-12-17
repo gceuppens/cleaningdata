@@ -53,7 +53,6 @@ correspond to the columns of files 3 and 6.
 We've done the following processing on the data:
 
 1. Cleanup of the column names (features.txt):
-
    * The column names were not unique; the variable with bandsEnergy in 
      the name were named identically instead of having one version for each 
      X, Y and Z axis
@@ -87,12 +86,16 @@ frequency domain variables together rather than repeating the same explanation.
 
 **subject**
 
-subject id from 1 to 30
+Subject id from 1 to 30
+
+   * subject
 
 **activity**
 
-factor with 6 values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, 
+Factor with 6 values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, 
 STANDING, LAYING
+
+   * activity
 
 **BodyAcceleration**
 
